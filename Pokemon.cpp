@@ -320,12 +320,12 @@ void Menu(pokemon a[20])
 		}
 		else if (choice == 3)
 		{
-			
+			playmusic();
 
 		}
 	} while (choice < 1 || choice>2);
 
-}/*
+}
 void music1()
 {
 	PlaySound(TEXT("pokemon-theme-song-gotta-catch-em-all-for-orchestra.wav"), NULL, SND_FILENAME | SND_LOOP);
@@ -422,7 +422,7 @@ void playmusic()
 
 	} while (i < 1 || i>7);
 
-}*/
+}
 void Load_data(pokemon a[20])  // reads data from file 
 {
 	player p1, p2;
