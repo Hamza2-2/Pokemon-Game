@@ -15,6 +15,8 @@ A terminal-based Pokémon battle game implemented in **C++**, offering both **Pl
 - Interactive terminal input/output
 - Object-Oriented structure for scalability
 - Randomized AI attack selection in PvAI mode
+- Background music during battles using system sound commands.
+
 
 
 ## Game Preview 📸
@@ -63,3 +65,10 @@ Pokemon-Game/
 - Battle Turns: Players take turns attacking until one Pokémon's HP reaches 0.
 
 - Victory: The last standing Pokémon wins the match.
+
+## 🔊 Music Functionality
+- Windows: Uses PlaySound(TEXT("music.wav"), NULL, SND_ASYNC | SND_LOOP);
+
+- Linux/macOS: Use system("aplay music.wav &") or afplay (replace accordingly)
+
+Make sure the sound file (e.g., music.wav) exists in the game directory.
