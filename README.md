@@ -50,7 +50,7 @@ Make sure all .cpp and .h files are in the same directory or properly linked.
 Pokemon-Game/
 │
 
-├── main.cpp              # Main game loop and menu
+├── pokemon.cpp              # Main game loop and menu
 
 └── README.md             # Project documentation
 
