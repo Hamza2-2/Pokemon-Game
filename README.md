@@ -52,9 +52,9 @@ Make sure all .cpp and .h files are in the same directory or properly linked.
 Pokemon-Game/
 │
 
-├── pokemon.cpp              # Main game loop and menu
+├── pokemon.cpp             
 
-└── README.md             # Project documentation
+└── README.md              
 
 ## How to Play 🎯
 
